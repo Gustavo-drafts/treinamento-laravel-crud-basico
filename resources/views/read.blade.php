@@ -28,7 +28,7 @@
 <body>
     <p>
         <label>Nome do Produto:</label><br>
-        <input type="text" name="nome" value={{ $produto->nome }}>
+        <strong>{{ $produto->nome }}</strong>
     </p>
 
     <p>

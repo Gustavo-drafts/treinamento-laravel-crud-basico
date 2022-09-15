@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <form action="/editar-produto/{{ $produto->id }}" method="POST">
+    <form action="/editar-produto/{{ $produto->id }}" method="post">
         @csrf
         <p>
             <label>Nome do Produto:</label><br>

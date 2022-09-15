@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <form action="/cadastrar-produto" method="POST">
+    <form action="/cadastrar-produto" method="post">
         @csrf
         <p>
             <label>Nome do Produto:</label><br>
